@@ -1,0 +1,5 @@
+csv-to-pdf-report-generator/
+├── app.py
+├── requirements.txt
+├── README.md
+└── sample_data.csv   ← (optional but good to include)

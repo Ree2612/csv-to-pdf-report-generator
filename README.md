@@ -32,7 +32,7 @@ Dashboard screenshots
 ![Screenshot (154)](https://github.com/user-attachments/assets/5f621150-8a0e-4dc4-991e-3ea35847279a)
 
 After uploading csv file
-![Screenshot (154)](https://github.com/user-attachments/assets/81826a08-ae0c-4639-8a14-3d39c4fc2f92)
+![Screenshot (155)](https://github.com/user-attachments/assets/c992545a-e6b6-4a9a-890a-566409374df2)
 
 The generated pdf:
 [report (4).pdf](https://github.com/user-attachments/files/20761588/report.4.pdf)

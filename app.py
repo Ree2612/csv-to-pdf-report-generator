@@ -13,9 +13,14 @@ uploaded_file = st.file_uploader("Upload a CSV or Excel file", type=["csv", "xls
 if uploaded_file:
     file_ext = uploaded_file.name.split(".")[-1]
     if file_ext == "csv":
-        df = pd.read_csv(uploaded_file)
+        try:
+            df = pd.read_csv(uploaded_file)
+        except UnicodeDecodeError:
+            st.warning("⚠️ File encoding not UTF-8. Trying fallback encoding (latin1)...")
+            df = pd.read_csv(uploaded_file, encoding="latin1")
     else:
         df = pd.read_excel(uploaded_file)
+
 
     st.subheader("Step 1: Preview Your Data")
     st.dataframe(df.head())

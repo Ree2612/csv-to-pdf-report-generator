@@ -17,7 +17,7 @@ if uploaded_file:
             df = pd.read_csv(uploaded_file)
         except UnicodeDecodeError:
             st.warning("⚠️ File encoding not UTF-8. Trying fallback encoding (latin1)...")
-            df = pd.read_csv(uploaded_file, encoding="latin1")
+            df = pd.read_csv(uploaded_file, encoding="ISO-8859-1")
     else:
         df = pd.read_excel(uploaded_file)
 

@@ -2,4 +2,4 @@ streamlit
 pandas
 matplotlib
 openpyxl
-git+https://github.com/PyFPDF/fpdf2.git@v2.7.8
+fpdf2==2.5.6

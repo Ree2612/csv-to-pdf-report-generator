@@ -8,6 +8,11 @@ A Streamlit-based Python app that:
 - Optionally includes a bar chart (mean of numeric columns)
 - Exports the data into a clean, formatted PDF report
 
+🔗 Live Demo
+Try the app here:  
+[https://csv-to-pdf-report-generator-hrktrq2muf3muxqbqxnz2t.streamlit.app](https://csv-to-pdf-report-generator-hrktrq2muf3muxqbqxnz2t.streamlit.app)
+
+
 ## 🔧 Features
 - Responsive UI
 - Styled PDF export using `fpdf`
